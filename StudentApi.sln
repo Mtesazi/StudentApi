@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApi", "StudentApi\StudentApi.csproj", "{896DA4B4-8E48-4B15-A70C-D77601D5233F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApi.Test", "StudentApi.Test\StudentApi.Test.csproj", "{8F6C06BC-D373-4D8E-B431-0D1B8A212186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{B14B9CF6-5E99-4B08-8E99-6A64CDB85255}"
+	ProjectSection(SolutionItems) = preProject
+		StudentScript.sql = StudentScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896DA4B4-8E48-4B15-A70C-D77601D5233F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896DA4B4-8E48-4B15-A70C-D77601D5233F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896DA4B4-8E48-4B15-A70C-D77601D5233F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896DA4B4-8E48-4B15-A70C-D77601D5233F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6C06BC-D373-4D8E-B431-0D1B8A212186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6C06BC-D373-4D8E-B431-0D1B8A212186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6C06BC-D373-4D8E-B431-0D1B8A212186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6C06BC-D373-4D8E-B431-0D1B8A212186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {204CA512-5064-4A88-BD1D-7F2D736668C2}
+	EndGlobalSection
+EndGlobal
